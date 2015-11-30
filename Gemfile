@@ -24,6 +24,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'devise', '~> 3.5', '>= 3.5.2'
 gem "paperclip", "~> 4.3"
+gem 'aws-sdk', '~> 2.2', '>= 2.2.3'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
