@@ -1,13 +1,12 @@
 <div class="jumbotron center">
 	<h1>I Want To Build Something Awesome For You</h1>
-	<p>Nothing gives me more joy than building awesome things for family, friends, and clients. If you've come across something online that you've got to have... Share it with me here!</p>
 
 	<% if user_signed_in? %>
 		<p>
-	       <%= link_to "View Ideas", pins_path, class: "btn btn-default btn-lg" %>
 	       <%= link_to "Post An Idea", new_pin_path, class: "btn btn-primary btn-lg" %>
 	  	</p> 
 	<% else %>
+	<p>Nothing gives me more joy than building awesome things for family, friends, and clients. If you've come across something online that you've got to have... Share it with me here!</p>
 		<p>
 	       <%= link_to "Sign in", new_user_session_path, class: "btn btn-default btn-lg" %>
 	       <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
